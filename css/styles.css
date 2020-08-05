@@ -1,0 +1,381 @@
+html {
+	position: relative;
+}
+
+body {
+	background: #eed8bd;
+	color: #866030;
+	font-family: 'Montserrat', sans-serif;
+	height: 100%;
+	position: relative;
+}
+
+.nav {
+	background-color: #f9ebdb;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	height: 6em;
+	z-index: 5;
+	display: flex;
+	align-items: center;
+}
+
+h1 {
+	font-size: 2.5em;
+	margin: 1em 0;
+}
+
+h4 {
+	font-size: 1.5em;
+	margin: 1em 0;
+}
+
+p {
+	margin: 1em 0;
+	line-height: 1.5;
+}
+
+.main-nav {
+	display: flex;
+	flex-flow: row;
+	flex-wrap: wrap;
+	flex: 1;
+}
+
+.main-nav li {
+    padding: 0 16px 0 0;
+}
+
+.nav-link {
+	text-decoration: none;
+	color: #866030;
+	font-size: 14.5px;
+}
+
+.nav-link:hover {
+	padding-bottom: 1px;
+border-bottom: 1px solid #866030;
+}
+
+.main-nav li:last-child {
+	font-weight: 900;
+	margin-left: auto;
+	padding: 0 5px 0 0;
+}
+
+.main-nav li:last-child .nav-link {
+	color:blue;
+	background-color: #d19f62;
+	padding: 8px;
+}
+
+.main-logoText {
+	position: absolute;
+	left: -99999px;
+}
+
+.main-logoSVG {
+	transform: scale(0.9);
+	width: 185px;
+}
+
+.content {
+	background: #f3e3cf;
+	padding: 6em 0 0;
+}
+
+/* Banner */
+
+.banner {
+	background-size: contain !important;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	height: 700px;
+}
+
+.banner--alien {
+	background: center top transparent no-repeat url(../images/alienbanner.jpg);
+	background-size: cover !important;
+}
+
+.banner--homepage {
+	background: center top transparent no-repeat url(../images/homepagebanner.jpg);
+}
+
+.banner--predator {
+	background: center top transparent no-repeat url(../images/predatorbanner.jpg);
+	background-size: cover !important;
+}
+
+.banner--theraid {
+	background: center top transparent no-repeat url(../images/theraidbanner.jpg);
+	background-size: cover !important;
+	background-position: center center;
+}
+
+.banner--darkknight {
+	background: center top transparent no-repeat url(../images/batmanbanner.jpg);
+	background-size: cover !important;
+}
+
+.banner--fastfurious {
+	background: center top transparent no-repeat url(../images/ffbanner.jpg);
+	background-size: cover !important;
+	background-position-y: 90px;
+}
+
+.banner--inception {
+	background: center top transparent no-repeat url(../images/inceptionbanner.jpg);
+	background-size: cover !important;
+	background-position-y: -120px;
+}
+
+.banner--godfather {
+	background: center top transparent no-repeat url(../images/godfatherbanner.jpg);
+	background-size: cover !important;
+	background-position-y: 80px;
+}
+
+.banner--lordoftherings {
+	background: center top transparent no-repeat url(../images/lotrbanner.jpg);
+	background-size: cover !important;
+}
+
+.banner--matrix {
+	background: center top transparent no-repeat url(../images/matrixbanner.png);
+	background-size: cover !important;
+	background-position: center top;
+}
+
+.banner--naruto {
+	background: center top transparent no-repeat url(../images/narutobanner.jpg);
+}
+
+.banner--attackontitan {
+	background: center top transparent no-repeat url(../images/attackontitanbanner.jpg);
+	background-size: cover !important;
+}
+
+.banner--gomorra {
+	background: center top transparent no-repeat url(../images/gomorrabanner.jpg);
+	background-size: cover !important;
+}
+
+.page-content {
+	background: #eed8bd;
+	margin-top: 500px;
+	padding: 0.5em 15% 0.5em;
+	position: relative;
+}
+
+/* About page */
+#about-html {
+	overflow: hidden;
+}
+
+.parallax {
+	margin-top: 6em;
+	perspective: 300px;
+	height: 100vh;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+/* parallax page */
+.page-content-parallax {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.parallax-section {
+	padding: 4em 15%;
+}
+
+.parallax-image {
+	height: 800px;
+	position: relative;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+
+.parallax-image.alien-1 {
+	background-image: url(../images/alien01.jpg);
+}
+
+.parallax-image.alien-2 {
+	background-image: url(../images/alien02.png);
+}
+
+.parallax-image.alien-3 {
+	background-image: url(../images/alien03.jpg);
+	background-position: center 50px;
+}
+
+.parallax-image.predator-1 {
+	background-image: url(../images/predator01.jpg);
+}
+
+.parallax-image.predator-2 {
+	background-image: url(../images/predator02.jpg);
+}
+
+.parallax-image.predator-3 {
+	background-image: url(../images/predator03.jpg);
+}
+
+.parallax-image.theraid-1 {
+	background-image: url(../images/theraid1.jpg);
+}
+
+.parallax-image.theraid-2 {
+	background-image: url(../images/theraid2.jpg);
+}
+
+.parallax-image.theraid-3 {
+	background-image: url(../images/theraid3.jpg);
+}
+
+.parallax-image.darkknight-1 {
+	background-image: url(../images/batman1.jpg);
+}
+
+.parallax-image.darkknight-2 {
+	background-image: url(../images/batman2.jpg);
+}
+
+.parallax-image.darkknight-3 {
+	background-image: url(../images/batman3.jpg);
+}
+
+.parallax-image.fastfurious-1 {
+	background-image: url(../images/ff1.jpg);
+}
+
+.parallax-image.fastfurious-2 {
+	background-image: url(../images/ff2.jpg);
+}
+
+.parallax-image.fastfurious-3 {
+	background-image: url(../images/ff3.jpg);
+}
+
+.parallax-image.inception-1 {
+	background-image: url(../images/inception1.jpg);
+}
+
+.parallax-image.inception-2 {
+	background-image: url(../images/inception2.jpg);
+}
+
+.parallax-image.inception-3 {
+	background-image: url(../images/inception3.jpg);
+}
+
+.parallax-image.godfather-1 {
+	background-image: url(../images/godfather1.jpg);
+}
+
+.parallax-image.godfather-2 {
+	background-image: url(../images/godfather2.jpg);
+}
+
+.parallax-image.godfather-3 {
+	background-image: url(../images/godfather3.jpg);
+}
+
+.parallax-image.lordoftherings-1 {
+	background-image: url(../images/lotr1.jpg);
+}
+
+.parallax-image.lordoftherings-2 {
+	background-image: url(../images/lotr2.jpg);
+}
+
+.parallax-image.lordoftherings-3 {
+	background-image: url(../images/lotr3.jpg);
+}
+
+.parallax-image.matrix-1 {
+	background-image: url(../images/matrix1.jpg);
+}
+
+.parallax-image.matrix-2 {
+	background-image: url(../images/matrix2.png);
+}
+
+.parallax-image.matrix-3 {
+	background-image: url(../images/matrix3.jpg);
+}
+.parallax-image.naruto-1 {
+	background-image: url(../images/naruto1.jpg);
+}
+
+.parallax-image.naruto-2 {
+	background-image: url(../images/naruto2.jpg);
+}
+
+.parallax-image.naruto-3 {
+	background-image: url(../images/naruto3.jpg);
+}
+
+.parallax-image.gomorra-1 {
+	background-image: url(../images/gomorra1.jpg);
+}
+
+.parallax-image.gomorra-2 {
+	background-image: url(../images/gomorra2.jpg);
+}
+
+.parallax-image.gomorra-3 {
+	background-image: url(../images/gomorra3.jpg);
+}
+
+.parallax-image.attackontitan-1 {
+	background-image: url(../images/attackontitan1.jpg);
+}
+
+.parallax-image.attackontitan-2 {
+	background-image: url(../images/attackontitan2.jpg);
+}
+
+.parallax-image.attackontitan-3 {
+	background-image: url(../images/attackontitan3.jpg);
+}
+
+/* Footer */
+.page-footer {
+	background-color: aliceblue;
+	opacity:0.99999;
+  }
+
+.page-footer p {
+	margin: 0;
+	padding: 0;
+  }
+  
+.page-footer h3 {
+	font-weight: bold;
+	color: black;
+	margin-bottom: 10px;
+}
+
+  .page-footer p.copyrights {
+	font-size: 11px;
+	letter-spacing: 1px;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 15px 0;
+  }
+  
+  .section-wrapper {
+	display: flex;
+	flex-wrap: inherit;
+	flex-direction: row;
+	padding: 15px 15% 0;
+	justify-content: space-between;
+  }
